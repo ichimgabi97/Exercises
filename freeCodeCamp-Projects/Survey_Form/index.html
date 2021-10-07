@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey_Form</title>
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">Random car form</h1>
+        <p id="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <form id="survey-form">
+            <div>
+                <label for="name" id="name-label" class="label_format new_section">Name:</label><br>
+                <input 
+                    type="text"
+                    name="name" 
+                    id="name"
+                    class="input_format" 
+                    required 
+                    placeholder="Enter your name..."
+                /><br>
+
+                <label for="email" id="email-label" class="label_format">Email:</label><br>
+                <input 
+                    type="email"
+                    name="email" 
+                    id="email"
+                    class="input_format" 
+                    required 
+                    placeholder="Enter a email..."
+                /><br>
+
+                <label for="number" id="number-label" class="label_format">Number:</label><br>
+                <input 
+                    type="number"
+                    name="number" 
+                    id="number"
+                    class="input_format" 
+                    min="0" 
+                    max="9999999999" 
+                    required 
+                    placeholder="number"
+                /><br>
+
+                <label for="cars" class="new_section">Choose a car:</label><br>
+                <select id="dropdown" name="cars" class="input_format">
+                    <option value="volvo">Volvo</option>
+                    <option value="alfa_romeo">Alfa Romeo</option>
+                    <option value="fiat">Fiat</option>
+                    <option value="audi">Audi</option>
+                    <option value="BMW">BMW</option>
+                    <option value="chevrolet">Chevrolet</option>
+                    <option value="ford">Ford</option>
+                    <option value="jeep">Jeep</option>
+                    <option value="mazda">Mazda</option>
+                    <option value="mercedes_benz">Mercedes-Benz</option>
+                </select>
+            </div>
+            
+            <div>
+                <p>Select your preferred tire size:</p>
+                <label for="15"> 
+                    <input 
+                        id="15"
+                        value="15" 
+                        type="radio" 
+                        name="tire_size"
+                    >15'' 
+                </label><br>
+                <label for="16"> 
+                    <input 
+                        id="16"
+                        value="16" 
+                        type="radio" 
+                        name="tire_size"
+                    >16''
+                </label><br>
+                <label for="17"> 
+                    <input 
+                        id="17"
+                        value="17" 
+                        type="radio" 
+                        name="tire_size"
+                    >17'' 
+                </label><br>
+                <label for="18"> 
+                    <input 
+                        id="18"
+                        value="18" 
+                        type="radio" 
+                        name="tire_size"
+                    >18'' 
+                </label><br>
+                <label for="19"> 
+                    <input 
+                        id="19"
+                        value="19" 
+                        type="radio" 
+                        name="tire_size"
+                    >19''
+                </label><br>
+                <label for="20"> 
+                    <input 
+                        id="20"
+                        value="20" 
+                        type="radio" 
+                        name="tire_size"
+                    >20'' 
+                </label><br>
+                <label for="21"> 
+                    <input 
+                        id="21"
+                        value="21" 
+                        type="radio" 
+                        name="tire_size"
+                    >21'' 
+                </label><br>
+            </div>
+
+            <div>
+                <p>Select your favorite car types: </p>
+                <label for="Sedan"> 
+                    <input 
+                        id="Sedan"
+                        value="Sedan" 
+                        type="checkbox" 
+                        name="typeOfCar"
+                    >Sedan 
+                </label><br>
+                <label for="Coupe"> 
+                    <input 
+                        id="Coupe"
+                        value="Coupe" 
+                        type="checkbox" 
+                        name="typeOfCar"
+                    >Coupe 
+                </label><br>
+                <label for="Sports_Car"> 
+                    <input 
+                        id="Sports_Car"
+                        value="Sports_Car" 
+                        type="checkbox" 
+                        name="typeOfCar"
+                    >Sports Car 
+                </label><br>
+                <label for="Station_Wagon"> 
+                    <input 
+                        id="Station_Wagon"
+                        value="Station_Wagon" 
+                        type="checkbox" 
+                        name="typeOfCar"
+                    >Station Wagon 
+                </label><br>
+                <label for="Hatchback"> 
+                    <input 
+                        id="Hatchback"
+                        value="Hatchback" 
+                        type="checkbox" 
+                        name="typeOfCar"
+                    >Hatchback 
+                </label><br>
+                <label for="Convertible"> 
+                    <input 
+                        id="Convertible"
+                        value="Convertible" 
+                        type="checkbox" 
+                        name="typeOfCar"
+                    >Convertible 
+                </label><br>
+                <label for="Sport_Utility_Vehicle_SUV"> 
+                    <input 
+                        id="Sport_Utility_Vehicle_SUV"
+                        value="Sport_Utility_Vehicle_SUV" 
+                        type="checkbox" 
+                        name="typeOfCar"
+                    >Sport-Utility Vehicle (SUV) 
+                </label><br>
+                <label for="Minivan"> 
+                    <input 
+                        id="Minivan"
+                        value="Minivan" 
+                        type="checkbox" 
+                        name="typeOfCar"
+                    >Minivan 
+                </label><br>
+                <label for="Pickup_Truck"> 
+                    <input 
+                        id="Pickup_Truck"
+                        value="Pickup_Truck" 
+                        type="checkbox" 
+                        name="typeOfCar"
+                    >Pickup Truck 
+                </label><br>
+            </div>
+
+            <div class="section">
+                <p>Any comments or suggestions?</p>
+                <textarea
+                  id="comments"
+                  name="comment"
+                  placeholder="Enter your comment here..."
+                ></textarea>
+              </div>
+
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
