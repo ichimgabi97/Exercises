@@ -10,26 +10,91 @@
 </head>
 <body>
     <header id="header">
-        <div>
-            <img id="header-img" src="" alt="Error">
-        </div>
+        <img id="header-img" src="https://i.pinimg.com/originals/f3/80/5c/f3805cbb9c45c2ad8e12fea81af79f29.png" alt="Error">
         
         <nav id="nav-bar">
-            <ul>
-                <li><a href="#header" class="nav-link">Home</a></li>
-                <li><a href="#" class="nav-link">About</a></li>
-                <li><a href="#" class="nav-link">Pricing</a></li>
-                <li><a href="#" class="nav-link">Contact</a></li>
-            </ul>
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#pricing" class="nav-link">Pricing</a>
+                <a href="#contact" class="nav-link">Contact</a>
         </nav>
     </header>
+    <section id="home"></section>
+    <section id="about">
+        <div class="about-container">
+            <h2>Black as the devil, hot as hell, pure as an angel, sweet as love.</h2>
+    
+            <p class="about-text">Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain flowering plants in the Coffea genus. From the coffee fruit, the seeds are separated to produce a stable, raw product: unroasted green coffee. The seeds are then roasted, a process which transforms them into a consumable product: roasted coffee, which is ground into fine particles that are typically steeped in hot water before being filtered out, producing a cup of coffee.</p>
+    
+            <p class="about-text">Coffee is darkly colored, bitter, slightly acidic and has a stimulating effect in humans, primarily due to its caffeine content. It is one of the most popular drinks in the world and can be prepared and presented in a variety of ways (e.g., espresso, French press, caffè latte, or already-brewed canned coffee). It is usually served hot, although chilled or iced coffee is common. Sugar, sugar substitutes, milk or cream are often used to lessen the bitter taste or enhance the flavor. It may be served with coffee cake or another sweet dessert, like doughnuts. A commercial establishment that sells prepared coffee beverages is known as a coffeehouse or coffee shop (not to be confused with Dutch coffeeshops selling cannabis).</p>
+    
+            <p class="about-text">Clinical research indicates that moderate coffee consumption is benign or mildly beneficial as a stimulant in healthy adults, with continuing research on whether long-term consumption reduces the risk of some diseases, although some of the long-term studies are of questionable credibility.</p>
+    
+            <p class="about-text">The earliest credible evidence of the drinking of coffee in the form of the modern beverage appears in modern-day Yemen from the middle of the 15th century in Sufi shrines, where coffee seeds were first roasted and brewed in a manner similar to current methods. The Yemenis procured the coffee beans from the Ethiopian Highlands via coastal Somali intermediaries and began cultivation. By the 16th century, the drink had reached the rest of the Middle East and North Africa, later spreading to Europe.</p>
+    
+            <p class="about-text">The two most commonly grown coffee bean types are C. arabica and C. robusta. Coffee plants are cultivated in over 70 countries, primarily in the equatorial regions of the Americas, Southeast Asia, the Indian subcontinent, and Africa. As of 2018, Brazil was the leading grower of coffee beans, producing 35% of the world total. Coffee is a major export commodity as the leading legal agricultural export for numerous countries. It is one of the most valuable commodities exported by developing countries. Green, unroasted coffee is the most traded agricultural commodity and one of the most traded commodities overall, second only to petroleum. Despite the sales of coffee reaching billions of dollars, those actually producing the beans are disproportionately living in poverty. Critics also point to the coffee industry's negative impact on the environment and the clearing of land for coffee-growing and water use. The environmental costs and wage disparity of farmers are causing the market for fair trade and organic coffee to expand</p>
+    
+            <div class="coffee-video">
+                <h3 class="coffee-video-title">In order to choose the right coffee, please watch the video below</h3>
+    
+                <iframe class="coffee-video-video" width="560" height="315" id="video" src="https://www.youtube.com/embed/O9YnLFrM7Fs" title="A Beginner's Guide To Buying Great Coffee" frameborder="0"></iframe>
+            </div>
+        </div>
+    </section>
+    
+    <section id="pricing">
+        <div class="pricing-content">
+            <h2 style="text-align:center">Pricing</h2>
 
-    <div>
-        <iframe id="video" src="https://www.youtube.com/embed/e8qcVPueL9E" title="Video description">
+            <div class="columns">
+                <ul class="price">
+                    <li class="header">Basic</li>
+                    <li class="grey">$ 9.99 / mounth</li>
+                    <li>10 bags of coffee beans</li>
+                    <li>From 5 different countries</li>
+                    <li>1 level of caffeine</li>
+                    <li class="grey"><a href="#" class="button">Order</a></li>
+                </ul>
+            </div>
 
-        </iframe>
+            <div class="columns">
+                <ul class="price">
+                    <li class="header">Pro</li>
+                    <li class="grey">$ 24.99 / mounth</li>
+                    <li>25 bags of coffee beans</li>
+                    <li>From 10 different countries</li>
+                    <li>3 level of caffeine</li>
+                    <li class="grey"><a href="#" class="button">Order</a></li>
+                </ul>
+            </div>
 
-    </div>
+            <div class="columns">
+                <ul class="price">
+                    <li class="header">Premium</li>
+                    <li class="grey">$ 49.99 / mounth</li>
+                    <li>50 bags of coffee beans</li>
+                    <li>From 15 different countries</li>
+                    <li>5 level of caffeine</li>
+                    <li class="grey"><a href="#" class="button">Order</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
+    <section id="contact">
+        <h3>Contact Us</h3>
+
+        <div class="container">
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your email..">
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" id="submit" value="Submit">
+            </form>
+        </div>
+    </section>
 </body>
-</html>
+</html> 

@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+}
+
+#header{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    padding-left: 10%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header-img{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 70px;
+    height: 90px;
+}
+
+#nav-bar{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-right: 12%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-link{
+    color: black;
+    text-decoration: none;
+}
+
+.about-container{
+    padding-top: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.about-text{
+    text-indent: 30px;
+    text-align: justify;
+}
+
+.coffee-video{
+    display: flex;
+    flex-direction: column;
+}
+
+.coffee-video-title{
+    display: flex;
+    justify-content: center;
+}
+
+.coffee-video-video{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+#pricing{
+    margin-bottom: 550px;
+}
+
+.pricing-content{
+    padding-top: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .columns {
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+  }
+  
+  .price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  .price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+  }
+  
+  .price .header {
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+  }
+  
+  .price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .price .grey {
+    background-color: #eee;
+    font-size: 20px;
+  }
+  
+  .button {
+    background-color: #FBF37C;
+    border: none;
+    color: #58555A;
+    font-style: italic;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .columns {
+      width: 100%;
+    }
+  }
+
+
+
+
+  #contact{
+      padding-left: 10%;
+      padding-right: 10%;
+      margin-bottom: 100px;
+  }
+
+  input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #FBF37C;
+    color: #58555A;
+    font-style: italic;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
