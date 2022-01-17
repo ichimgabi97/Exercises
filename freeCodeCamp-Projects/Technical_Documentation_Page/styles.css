@@ -4,9 +4,67 @@ body{
 }
 
 #navbar{
-    width: 30%;
+    position: fixed;
+    width: 20%;
+    height: 100%;
+    border-right: solid;
+    border-color: black;
 }
 
 #main-doc{
-    width: 70%;
+    padding-left: 22%;
+    padding-right: 1%;
+    width: 80%;
+}
+
+header{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+nav header{
+    padding-top: 10px;
+    text-align: center;
+}
+
+section header{
+    padding-top: 25px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: -40px;
+    font-size: medium;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+nav ul li{
+    position: relative;
+    height: 20px;
+    list-style-type: none;
+    border-top: solid;
+    border-color: black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 5px;
+}
+
+nav ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+p{
+    text-indent: 15px;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 400px){
+    body{
+        font-size: 10px;
+    }
 }
