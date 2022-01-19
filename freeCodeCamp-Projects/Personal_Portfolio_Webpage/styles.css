@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+}
+
+:root{
+    --color1: #2D2F59;
+    --color2: #0A1659;
+    --color3: #11308C;
+    --color4: #2669BF;
+    --color5: #3DADF2;
+}
+
+#navbar{
+    background-color: var(--color4);
+    height: 50px;
+    position: fixed;
+    width: 100%;
+}
+
+nav ul{
+    text-align: right;
+}
+
+nav ul li{
+    display: inline;
+    list-style-type: none;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    margin-right: 10%;
+}
+
+nav ul li a:hover {
+    color: var(--color2);
+    box-shadow: 0px 1px var(--color2);
+}
+
+#welcome-section{
+    background-color: var(--color5);
+    height: calc(100vh - 50px);
+    padding-top: 50px;
+}
+
+section h1{
+    padding-top: 40vh;
+    color: white;
+    text-align: center;
+}
+
+.section_p{
+    margin-top: -10px;
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+    color: white;
+}
+
+#projects{
+    background-color: var(--color3);
+    margin-top: -20px;
+    padding-bottom: 20px;
+}
+
+section h2{
+    padding-top: 15px;
+    color: white;
+    text-align: center;
+}
+
+img{
+    width: 500px;
+    height: 300px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 5%;
+}
+
+.project-tile{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+
+.container{
+    padding: 20px 20px 10px 20px;
+    background-color: var(--color1);
+    border-radius: 20px;
+}
+
+#contact{
+    margin-top: -20px;
+    background-color: var(--color5);
+    padding-bottom: 20px;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40% 0 40%;
+}
+
+.git_fcc{
+    text-decoration: none;
+    color: white;
+}
+
+.git_fcc:hover {
+    color: var(--color2);
+    box-shadow: 0px 1px var(--color2);
+}
+
+@media only screen and (max-width: 400px){
+    body{
+        font-size: 10px;
+    }
+}
