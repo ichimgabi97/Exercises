@@ -134,3 +134,32 @@ function countdown(n){
   console.log(countdown(5));
 
 //Use Recursion to Create a Countdown End
+
+//-----------------------------------------------------------------------------
+
+//Use getters and setters to Control Access to an Object
+
+// Only change code below this line
+class Thermostat {
+    "use strict";
+
+    constructor(temperatureF){
+        this._temperatureC = 5 / 9 * (temperatureF - 32);
+    }
+    // getter
+    get temperature(){
+        return this._temperatureC;
+    }
+    // setter
+    set temperature(updatedTemperatureC){
+        this._temperatureC = updatedTemperatureC;
+    }
+  }
+  // Only change code above this line
+  
+  const thermos = new Thermostat(76); // Setting in Fahrenheit scale
+  let temp = thermos.temperature; // 24.44 in Celsius
+  console.log(temp);
+  thermos.temperature = 26;
+  temp = thermos.temperature; // 26 in Celsius
+  console.log(temp);
